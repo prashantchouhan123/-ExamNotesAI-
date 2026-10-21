@@ -1,4 +1,4 @@
-```javascript
+
 import express from "express";
 import dotenv from "dotenv";
 import connectDb from "./utils/connectDb.js";
@@ -57,4 +57,4 @@ app.use(async (req, res, next) => {
 });
 
 export default app;
-```
+
